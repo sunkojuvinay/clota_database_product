@@ -19,6 +19,7 @@ public class ProductsBusinessImpl implements ProductsBusiness {
 	@Override
 	public List<Product> getProductList() {
 		List<Product> lst = productsService.getProductList();
+		
 		return lst;
 	}
 
